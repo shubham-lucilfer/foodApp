@@ -1,6 +1,6 @@
 const nodemailer = require("nodemailer");
 const password = "unnrcvxyjkpmtqcp"
-
+ 
 async function mailSender(email,otp) {
 
 
