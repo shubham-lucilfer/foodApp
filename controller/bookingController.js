@@ -10,7 +10,7 @@ async function createSession(req, res){
     line_items: [
         {
           // Provide the exact Price ID (for example, pr_1234) of the product you want to sell
-          price: 'price_1LcWuMSEf8DOL01HQTY6yBZi',
+          price: '',
           quantity: 1,
         },
       ],

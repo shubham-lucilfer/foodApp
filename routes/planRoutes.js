@@ -1,6 +1,6 @@
 const express = require("express");
 const { getAllPlansController, createPlanController,
-     getPlanController, updatePlanController, deletePlanController } = require("../controller/planController");
+    getPlanController, updatePlanController, deletePlanController } = require("../controller/planController");
 const planRouter = express.Router();
 
 

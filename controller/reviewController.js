@@ -10,7 +10,7 @@ const foodPlanModel = require("../model/planModel");
 //new average = new total sum / new length = 18/6 = 3
 
 
- async function createReviewController(req,res){
+async function createReviewController(req,res){
     try{
         let reviewData = req.body;
         let review = await foodReviewModel.create(reviewData);
@@ -30,7 +30,7 @@ const foodPlanModel = require("../model/planModel");
         await currentPlan.save();
         res.status(201).json({
             review,
-            result:"created"    
+            result:"created"
         })
     }
     catch(err){
